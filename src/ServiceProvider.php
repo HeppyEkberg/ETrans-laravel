@@ -1,8 +1,8 @@
 <?php namespace ETrans;
 
 use Carbon\Carbon;
-use Elicit\ETrans\Commands\ETransInstall;
-use Illuminate\Support\ServiceProvider AS Default_ServiceProvider;
+use ETrans\Commands\ETransInstall;
+use Illuminate\Support\ServiceProvider as Default_ServiceProvider;
 
 /**
  * ETrans, package for installing and updating translations.
