@@ -1,6 +1,6 @@
-<?php namespace Elicit\ETrans\Commands;
+<?php namespace ETrans\Commands;
 
-use Elicit\ETrans\Controllers\LanguagesController;
+use ETrans\Controllers\LanguagesController;
 use File;
 use Illuminate\Console\Command;
 

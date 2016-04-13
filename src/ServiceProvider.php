@@ -1,4 +1,4 @@
-<?php namespace Elicit\ETrans;
+<?php namespace ETrans;
 
 use Carbon\Carbon;
 use Elicit\ETrans\Commands\ETransInstall;

@@ -1,6 +1,5 @@
-<?php namespace Elicit\ETrans\Controllers;
+<?php namespace ETrans\Controllers;
 
-use AkaKalkyl\Http\Controllers\Controller;
 use File;
 use GuzzleHttp\Client;
 
