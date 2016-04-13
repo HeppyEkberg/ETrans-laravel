@@ -10,6 +10,9 @@
       "email": "dennis.karlsson@elicit.se"
     }
   ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
   "autoload": {
     "psr-4": {
       "ETrans\\": "src/"
