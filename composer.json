@@ -1,12 +1,12 @@
 {
-  "name": "denniselicit/etrans-laravel",
+  "name": "heppykarlsson/etrans-laravel",
   "type": "component",
   "license": "Apache-2.0",
   "description": "ETrans laravel package.",
   "minimum-stability": "dev",
   "authors": [
     {
-      "name": "Dennis Karlsson",
+      "name": "Heppy Karlsson",
       "email": "dennis.karlsson@elicit.se"
     }
   ],
