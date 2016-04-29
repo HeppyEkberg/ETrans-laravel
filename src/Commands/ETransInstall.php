@@ -1,6 +1,6 @@
-<?php namespace ETrans\Commands;
+<?php namespace HeppyKarlsson\ETrans\Commands;
 
-use ETrans\Controllers\LanguagesController;
+use HeppyKarlsson\ETrans\Controllers\LanguagesController;
 use File;
 use Illuminate\Console\Command;
 
@@ -23,8 +23,6 @@ class ETransInstall extends Command
 
     /**
      * Create a new command instance.
-     *
-     * @return void
      */
     public function __construct()
     {

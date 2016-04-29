@@ -1,4 +1,4 @@
-<?php namespace ETrans\Controllers;
+<?php namespace HeppyKarlsson\ETrans\Controllers;
 
 use File;
 use GuzzleHttp\Client;

@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ETrans\\": "src/"
+      "HeppyKarlsson\\ETrans\\": "src/"
     }
   }
 }
