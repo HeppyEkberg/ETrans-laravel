@@ -1,7 +1,7 @@
 <?php namespace HeppyKarlsson\ETrans;
 
 use Carbon\Carbon;
-use HeppyKarlsson\ETrans\Commands\ETransInstall
+use HeppyKarlsson\ETrans\Commands\ETransInstall;
 use Illuminate\Support\ServiceProvider as Default_ServiceProvider;
 
 /**
