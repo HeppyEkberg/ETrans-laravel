@@ -6,7 +6,7 @@ The ETrans package is to download and deploy translations to your project from E
 
 ```
   "require": {
-    "heppykarlsson/subtype-laravel": "^1"
+    "heppykarlsson/subtype-laravel": "^1.0"
   },
   "repositories": [
     { "type": "vcs", "url": "https://github.com/HeppyKarlsson/subtype-laravel.git" }

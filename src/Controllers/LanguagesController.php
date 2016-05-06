@@ -13,7 +13,7 @@ class LanguagesController
 
         $response = $guzzle->request(
             'get',
-            $endpoint . '/api/language/' . $language
+            $endpoint . '/api/namespace/' . config('etrans.namespace') . '/language/' . $language
         );
 
         $groups = json_decode($response->getBody());
@@ -22,7 +22,7 @@ class LanguagesController
             $translationsList = [];
             $response = $guzzle->request(
                 'get',
-                $endpoint . '/api/language/' . $language . "/" . $group
+                $endpoint . '/api/namespace/' . config('etrans.namespace') . '/language/' . $language . "/category/" . $group
             );
 
             $translations = json_decode($response->getBody());
